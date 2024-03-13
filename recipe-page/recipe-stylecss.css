@@ -138,7 +138,19 @@ td {
 }
 
 @media screen and (max-width: 375px) {
-    
+    h1{
+font-size: 30px;
+}
+h3{
+font-size: 15px;
+}
+body,
+main {
+background-color: white;
+}
+main {
+margin: 0;
+}
 }
 @media screen and (max-width: 1440px) {
     
