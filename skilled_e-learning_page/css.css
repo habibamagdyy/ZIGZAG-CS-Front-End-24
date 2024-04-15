@@ -1,0 +1,165 @@
+/* 
+body background linear-gradient(180deg, #FFF 0%, #F0F1FF 100%)
+dark buttons background and text  #13183f 
+gray #83869a
+gradient var(--Gradient-1, linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%))
+links #F74780
+*/
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'plus jakarta sans', sans-serif;
+    
+}
+.container{
+display: flex;
+align-items: center;
+justify-content: space-between;
+height: 100px;
+width: 80%;
+margin: 0 auto;
+
+}
+h1{
+    font-size: 55px;
+    font-weight: 800px;
+    line-height: 60px;
+    color: #13183f;
+}
+p{
+    font-size: 18px;
+    font-weight: 500px;
+    line-height: 28px;
+    color:#83869a ;
+
+}
+header .btn{
+    background:#13183f;
+    color: white;
+    cursor: pointer;
+    height: 55px;
+    width: 167px;
+    border-radius: 30px;
+    border: none;
+z-index: 100px;
+}
+.hero-image {
+    background: url("image-hero-desktop.webp");
+    background-repeat: no-repeat;
+width: 990px;
+height: 930px;
+top: -220px;
+right: 450px;
+position: relative;
+}
+.hero{
+    height: 80vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-between;
+    position: relative;
+}
+
+
+body{
+    overflow-x: hidden;
+    background: linear-gradient(180deg, #FFF 0%, #d0d4f6 100%);
+}
+.hero-content{
+display: flex;
+flex-direction: column;
+justify-content: center;
+gap: 1rem;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.hero-content button{
+    width: 167px;
+    height: 56px;
+    border-radius: 30px;
+    cursor: pointer;
+    border: none;
+    background: linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
+color: white;
+}
+main{
+    width: 80%;
+    position: relative;
+    margin: 0 auto;
+}
+.courses{
+    display: grid;
+    grid-template-columns: 350px 350px 350px ;
+    grid-template-rows: 320px 320px 320px;
+row-gap: 5rem;
+margin-top: 4rem;
+justify-content: space-between;
+
+
+}
+.popular{
+    display: flex;
+color: white;
+background: linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
+border-radius: 15px;
+padding: 4rem 3rem ;
+
+}
+h2{
+    font-size: 32px;
+font-weight: 800px;
+line-height: 40px;
+}
+.card{
+    display: flex;
+flex-direction: column;
+border-radius: 16px;
+justify-content: space-evenly;
+position: relative;
+padding: 3rem 3rem;
+background-color: white;
+margin: 7px;
+
+}
+.icon-container{
+position: absolute;
+top: -20px;
+}
+.gtstarted{
+    color:#F74780 ;
+    font-weight: 800px;
+}
+
+.footer{
+    margin-top: 8rem;
+    background-color: #13183f;
+    height: 100px;
+    display: flex;
+align-items: center;
+justify-content: space-between;
+}
+.footer-container{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+footer .btn{
+    background: linear-gradient(180deg, #401985 0%, #F02AA6 100%);
+color: white;
+width: 165px;
+height: 55px;
+border-radius:30px ;
+border: none;
+
+}
+
+
+
+
+
+
+
+
